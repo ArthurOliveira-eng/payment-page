@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@arthur/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 
@@ -13,9 +13,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Streaming-Project",
+  description: "Created by Arthur Oliveira",
+  generator: "tutuolv",
 }
 
 export default function RootLayout({
